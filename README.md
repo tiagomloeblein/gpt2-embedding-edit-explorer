@@ -26,7 +26,7 @@ By analyzing multiple tokens, we discovered certain embedding dimensions (e.g., 
 ## 📁 Files Included
 
 - `alterar_embedding_distilgpt2.py`: Script to load the model, apply `delta_caps`, and generate text
-- `distilgpt2_embeddings.jsonl`: Token embeddings extracted from the model
+- `distilgpt2_embeddings.jsonl` (zipped): Token embeddings extracted from the model
 - `analise_dimensoes_dinamico.py`: Script to identify capitalization dimensions
 - Example logs and delta analyses for many tokens
 
@@ -54,6 +54,14 @@ he is a very good person. He is a very good person. He is...
 ```
 
 The model begins using the capitalized form naturally, even though the input was lowercase.
+
+---
+
+## 📥 Download Full Embeddings
+
+You can download the full embeddings as a `.zip` file here:
+
+**[📦 distilgpt2_embeddings.zip (Hugging Face)](https://huggingface.co/datasets/tiagoloeblein/gpt2-embeddings/blob/main/distilgpt2_embeddings.zip)**
 
 ---
 
